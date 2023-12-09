@@ -1,0 +1,800 @@
+body{
+    width: 100%;
+}
+                                            /* CSS Menu */
+.menu{
+    height: 350px;
+    background-image: url("image/menu/menu.jpeg");
+    background-size: cover;
+}
+nav{
+    color: #FFF;
+    float: left;
+    margin:30px 90px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    transition: .3s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #EFEEF5;
+    transition: .5;
+    font-size: 15px;
+    margin-left:16px;
+}
+nav ul li:hover a{
+    text-decoration: none;
+    color: #591BC5;;
+}
+nav ul li:hover{
+    height: 45px;
+    padding-top: 30px;
+    margin-top: -30px;
+    background: #EFEEF5;
+    text-decoration: none;
+    transform: skew(15deg);
+}
+.menu_text{
+    margin-left: -660px;
+    padding-top: 50px;
+    float: left;
+    font-size: 45px;
+}
+.menu_text2{
+    color: yellow;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+                                            /* CSS Header */
+.Header{
+    height: 814px;
+    background-image: url("image/Header/Fon_Header.png");
+    background-size: cover;
+}
+.platforms{
+    font-family: 'Exo', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 220px;
+    margin: 0;
+}
+.krug{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #8085a3;
+    margin-left: 700px;
+}
+.strelka{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid white;
+    margin-left: 715px;
+    margin-top: -45px;
+}
+.button_1{
+    width: 190px;
+    height: 50px;
+    background-color: #ff6d6d;
+    margin-left: 625px;
+    margin-top: 10px;
+}
+.header_text1{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    margin-left: 685px;
+    margin-top: -35px;
+}
+                                            /* CSS Section_2 */
+.Section_2{
+    height: 720px;
+    background-color: white;
+}
+.New_design{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    color: #ff6d6d;
+    margin-top: 190px;
+    margin-left: 150px;
+    font-weight: 900;
+}
+.Platform{
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    margin-left: 150px;
+    font-weight: 900;
+    margin-top: -15px;
+}
+.Point{
+    color: #ff6d6d;
+}
+.Section2_text{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    margin-left: 150px;
+    color: #8e8e8e;
+    font-weight: 900;
+}
+.my_photo{
+    height: 600px;
+    width: 600px;
+    float: right;
+    margin-top: -600px;
+}
+.scale{
+    transition: 5s;
+}
+.scale:hover{
+    transform: scale(1.2);
+}
+.button5 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-left: 330px;
+}
+
+
+.button6:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+                                            /* CSS My_project */
+.button7 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin-left: 645px;
+}
+
+.button8:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+                                            /* CSS Section_3 */
+.Section_3{
+    height: 670px;
+    background-color: white;
+}
+.New_features{
+    font-family: 'Exo', sans-serif;
+    color: #ff6d6d;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 130px;
+}
+.Some_awesona{
+    font-family: 'Exo', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: -20px;
+}
+.Shadow{
+    padding-left: 1140px;
+    margin-top: -290px;
+}
+.Pen_holder{
+    margin-top: -250px;
+}
+.Coffe_cup{
+    padding-left: 1178px;
+}
+
+                                            /* CSS Description */
+.Description{
+    height: 550px;
+    background-color: white;
+}
+.NEW_DESIGN_DESCRIPTION{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #ff6d6d;
+    margin-left: 745px;
+    margin-top: 145px;
+}
+                                            /* CSS Clients */
+.Clients{
+    height: 650px;
+    background-image: url("image/Clients/Rectangle.png");
+    margin-top: 100px;
+}
+.table_Clients{
+    text-align: center;
+    padding-top: 110px;
+}
+.Jonathon_Doe{
+    font-family: 'Exo', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+}
+.Co_Founder{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #ff6d6d;
+}
+.text_clients{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    color: #b4b4b6;
+    font-weight: 900;
+}
+.table2_clients{
+    text-align: center;
+    padding-top: 30px;
+}
+[data-tooltip] {
+    position: relative; /* Относительное позиционирование */
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина подсказки */
+    left: 80px; top: 0; /* Положение подсказки */
+    background: #3989c9; /* Синий цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 1s; /* Время появления подсказки */
+}
+[data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: -3em; /* Положение подсказки */
+}
+                                            /* CSS Karta */
+.Karta{
+    height: 400px;
+}
+                                            /* CSS Browser */
+.Browser{
+    height: 750px;
+    background-color: white;
+}
+.Browser_1{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: #ff6d6d;
+    font-weight: 900;
+}
+.Browser_2{
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    font-weight: 900;
+}
+.Browser_3{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    color: #282828;
+    font-weight: 900;
+}
+.Browser_4{
+    padding-left: 310px;
+    padding-top: 140px;
+}
+.Browser_5{
+    width: 765px;
+    height: 320px;
+    margin-left: 338px;
+    margin-top: -670px;
+    margin-bottom: 20px;
+}
+                                            /* CSS Try_now */
+.Try_now{
+    height: 470px;
+    background-color: #313969;
+}
+.Try_now_1{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: #ff6d6d;
+    font-weight: 900;
+}
+.Try_now_2{
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-weight: 900;
+}
+.Arrow{
+    margin-left: 1000px;
+}
+.days_free{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #f6f5f3;
+    margin-left: 1040px;
+    margin-top: -30px;
+}
+.full_name{
+    width: 270px;
+    height: 40px;
+    background-color: #ff6d6d;
+    margin-left: 70px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
+}
+.your_email{
+    width: 270px;
+    height: 40px;
+    background-color: #ff6d6d;
+    margin-left: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
+}
+.password{
+    width: 270px;
+    height: 40px;
+    background-color: #ff6d6d;
+    margin-left: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
+}
+.button_try_now{
+    width: 270px;
+    height: 50px;
+    background-color: aquamarine;
+    margin-left: 40px;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
+}
+.By_Signing{
+    text-align: center;
+    color: #a8aabc;
+    margin-top: 100px;
+    font-family: 'Exo', sans-serif;
+}
+                                            /* CSS Footer */
+.Footer{
+    height: 330px;
+    background-color: white;
+}
+.footer_table{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer_tr1{
+    font-size: 22px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #2c2f49;
+}
+.footer_tr2{
+    font-size: 14px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #a9a9a9;
+}
+.help_center{
+    padding-top: 30px;
+}
+.img_2 {
+    margin-left: 20px;
+}
+.img_3{
+    margin-left: 20px;
+}
+.img_4{
+    margin-left: 20px;
+}
+.Footer_input{
+    width: 150px;
+    height: 40px;
+    background-color: #EFEEF5;
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+                                            /* CSS Secutity */
+.Security{
+    height: 120px;
+}
+
+
+                                            /* CSS Fihish */
+.fihish{
+    width: 100%;
+    height: 760px;
+    background-image: url("image/finish/finish.jpeg");
+    padding-top: 50px;
+}
+.finish_2{
+    width: 600px;
+    height: 600px;
+    background-color: #FFFFFF;
+    margin-left: 400px;
+}
+.galochka{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+.regist_uspeshno{
+    text-align: center;
+    color: #074e65;
+}
+.sait{
+    text-align: center;
+    font-size: 15px;
+}
+.sait_2{
+    text-align: center;
+    padding-top: 50px;
+}
+.button_finish{
+    text-align: center;
+}
+                                                /* CSS Vhod */
+.vhod{
+    width: 100%;
+    height: 760px;
+    background-image: url("image/vhod/fon_vhod.jpeg");
+    padding-top: 50px;
+    background-size: cover;
+}
+.vhod_2{
+    width: 600px;
+    height: 600px;
+    background-color: #FFFFFF;
+    margin-left: 400px;
+}
+.akkaunt{
+    text-align: center;
+    padding-top: 70px;
+}
+.vhod_submit{
+    background-color: #591BC5;
+    color: #FFFFFF;
+}
+.form_vhod{
+    margin-left: 90px;
+}
+.logo_vhod{
+    margin-left: 90px;
+}
+.vhod_submit2{
+    margin-left: 90px;
+}
+                                                /* CSS Registration */
+.registr_header{
+    width: 670px;
+    height: 60px;
+    background-color: #4CAF50;
+}
+.registr_header_text{
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    padding-top: 15px;
+    margin: 0;
+}
+.cookie{
+    font-family: 'Exo', sans-serif;
+    font-size: 17px;
+}
+.cookie_text{
+    color: red;
+}
+.registr_vhod{
+    font-family: 'Exo', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+}
+.button3{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 110px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button4:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+                                                        /* CSS Contact */
+.Contact{
+    width: 100%;
+}
+.table_contact{
+    height: 80px;
+    border-collapse: collapse;
+}
+.th_1{
+    background-color: #591BC5;
+}
+.th_2{
+    background-color: #074e65;
+}
+.th_3{
+    background-color: #4CAF50;
+}
+.th_4{
+    background-color: #8085a3;
+}
+.tr_contact1{
+    padding-left: 150px;
+}
+.scil_text_1{
+    font-size: 30px;
+
+}
+.table_2{
+    text-align: center;
+}
+.text_1{
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+}
+.text_2{
+    font-family: 'Exo', sans-serif;
+    color: #ff6d6d;
+    font-size: 16px;
+    font-weight: 900;
+}
+.text_3{
+    font-family: 'Exo', sans-serif;
+    color: #b0b0b2;
+    font-size: 16px;
+}
+.New_Design2{
+    color: crimson;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    margin-left: 900px;
+}
+.Resposive_Design{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    margin-left: 900px;
+    font-size: 40px;
+}
+.Text_2{
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    margin-left: 900px;
+    font-size: 16px;
+}
+.Macbook{
+    position: relative;
+    margin-left: 120px;
+    width: 700px;
+    height: 500px;
+    margin-top: -900px;
+    z-index: 3;
+}
+.video{
+    position: absolute;
+    z-index: 5;
+    width: 500px;
+    height: 490px;
+    margin-left: 222px;
+    margin-top: -550px;
+}
+.Description {
+    background-color: white;
+    height: 648px;
+}
+.background {
+    background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+}
+.cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #D7D4E4;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+    border-color: #FFF ;
+}
+.cube:nth-child(2) {
+    animation-delay: 2s;
+    left: 25vw;
+    top: 40vh;
+}
+.cube:nth-child(3) {
+    animation-delay: 4s;
+    left: 75vw;
+    top: 50vh;
+}
+.cube:nth-child(4) {
+    animation-delay: 6s;
+    left: 90vw;
+    top: 10vh;
+}
+.cube:nth-child(5) {
+    animation-delay: 8s;
+    left: 10vw;
+    top: 85vh;
+}
+.cube:nth-child(6) {
+    animation-delay: 10s;
+    left: 50vw;
+    top: 10vh;
+}
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+.intro {
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+
+.intro:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.intro__title {
+    margin: 0;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video_2 {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 56.25%;
+}
+
+.video__media {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
